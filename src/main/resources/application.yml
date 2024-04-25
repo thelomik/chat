@@ -7,5 +7,9 @@ spring:
       port: 27017
       database: chat_app
       authentication-database: admin
+  docker:
+      compose:
+        enabled: true
+        file: docker-compose.yml
 server:
     port: 8088
