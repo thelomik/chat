@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .users-list::-webkit-scrollbar{
     display: none;
 }
@@ -64,8 +65,11 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
+
     cursor: pointer;
 }
+
+
 
 .user-item.active {
     background-color: #cdebff;

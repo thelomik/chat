@@ -12,4 +12,4 @@ spring:
         enabled: true
         file: docker-compose.yml
 server:
-    port: 8088
+    port: 8080
